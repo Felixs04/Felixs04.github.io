@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignación Elementos Básicos HTML y CSS</title>
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            font-size: 25px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 0px ;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+        footer {
+            background-color: #333;
+            padding: 3px;
+            text-align: left;
+            color: white;
+        }
+        .content {
+
+            margin-top: 60px;
+        }
+        h1 {
+            color: #ffffff;
+        }
+        h2 {
+            color: #555;
+        }
+        .h2-Container{
+            display: flex;
+            justify-content: space-between;
+         }
+        iframe  {
+            width: 46%;
+            height: 500px;
+            border: none;
+        }
+        .iframe-Container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;  
+        }
+        .table td, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 100%;
+            background-color: #fff;
+            padding: 10px
+        }
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <h1>Ejemplo de HTML y CSS</h1>
+    </header>
+
+
+    <div class="content">
+        <div class="info">
+
+            <h2>Elementos HTML y CSS más usados</h2>
+            <p>HTML (HyperText Markup Language) y CSS (Cascading Style Sheets) son la base de la creación de páginas web. Algunos de los elementos más usados son:</p>
+
+            <div class="grid-container">
+                <ul>
+                <div class="grid-item"><lo>Elementos estructurales: <code>&lt;div&gt;</code>, <code>&lt;span&gt;</code></lo></div>
+                <div class="grid-item"><lo>Encabezados: <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code></lo></div>
+                <div class="grid-item"><lo>Elementos de texto: <code>&lt;p&gt;</code>, <code>&lt;a&gt;</code>, <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code></lo></div>
+                <div class="grid-item"><lo>Listas: <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code></lo></div>
+                <div class="grid-item"><lo>Tablas: <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code></lo></div>
+                <div class="grid-item"><lo>Formularios: <code>&lt;form&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;button&gt;</code></lo></div>
+                <div class="grid-item"><lo>Multimedia: <code>&lt;img&gt;</code>, <code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code></lo></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+<div class="h2-Container">
+    <div>
+        <h2>Ubicacion de La UNPHU</h2>
+    </div>
+    <div>
+        <h2>Video sobre Programacion web</h2>
+    </div>
+
+</div>
+
+
+
+  <div class="info">
+    <div class="iframe-Container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7567.9048965205175!2d-69.95538121565923!3d18.485813000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f362e578d3%3A0x19d59fe09af95898!2sUniversidad%20Nacional%20Pedro%20Henr%C3%ADquez%20Ure%C3%B1a%20(UNPHU)!5e0!3m2!1ses-419!2sdo!4v1717796285233!5m2!1ses-419!2sdo" 
+             width="600" 
+             height="450"
+             style="border:0;" 
+             allowfullscreen="" 
+             loading="lazy" 
+             referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <iframe 
+             src="https://www.youtube.com/embed/rnmbxqS1nRo?si=Edi3je97AEm1yRet" 
+             allowfullscreen>
+        </iframe>
+    </div>
+ </div>
+    
+    <div class="info">
+        <h2>Tabla de estudiantes</h2>
+        <div class="table td, th">
+            <table>
+            <tr>
+                <th>nombre</th>
+                <th>matricula</th>
+                <th>carrera</th>
+              </tr>
+              <tr>
+                <td>Maria Magdalena</td>
+                <td>21-0000</td>
+                <td>Ingenieria Civil</td>
+              </tr>
+              <tr>
+                <td>Carlos Enrique</td>
+                <td>22-0000</td>
+                <td>Gastronomia</td>
+              </tr>
+              <tr>
+                <td>Jose Ramon</td>
+                <td>23-0000</td>
+                <td>Psicologia Industrial</td>
+              </tr>
+            </table>
+        </div>
+    </div>
+       
+        <div class="footer">
+          <footer>
+            <p>Felix Ramon Suriel Lugo</p> 
+            <p>23-0217</p>
+          </footer>
+        </div>
+
+</body>
+</html>
+  
+          
+    
+
+            
+            
